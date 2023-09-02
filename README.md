@@ -8,29 +8,22 @@ This project aims to predict the surface area of cylinders based on their radius
 
 The project is organized as follows:
 
-- **Datasets**: Contains the training and test datasets in CSV format.
+ 1.Contains the training and test datasets in CSV format.
   - `train_dataset.csv`: Training dataset.
   - `test_dataset.csv`: Test dataset.
 
-- **Models**: Store machine learning models.
+2. Store machine learning models.
   - `linear_reg_model.pkl`: Serialized Linear Regression model.
-  - Add other model files as needed.
+  - 'rf_model.pkl': Random Forest model.
 
-- **Scripts**: Contains Python scripts for training and inference.
-  - `train.py`: Training script for machine learning models.
-  - `inference.py`: Inference script to make predictions.
+3. **Python scripts**: Contains for training and inference.
+  - `train.ipynb`: Training script for machine learning models.
+  - `inference.ipynb`: Inference script to make predictions.
 
-- `README.md`: This documentation file.
-
-## Steps to Reproduce the Project
-
-Follow these steps to reproduce the project:
+4. `README.md`: This documentation file.
 
 ### 1. Clone the Repository
 
 Clone this GitHub repository to your local machine.
 
-```bash
-git clone <repository_url>
-cd <repository_directory>
 
